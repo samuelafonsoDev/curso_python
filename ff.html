@@ -1,0 +1,23 @@
+<h1 id="hack">ACCESS DENIED</h1>
+
+<script>
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%";
+const element = document.getElementById("hack");
+const originalText = element.innerText;
+
+let iteration = 0;
+
+const interval = setInterval(() => {
+  element.innerText = originalText
+    .split("")
+    .map((char, index) => {
+      if (index < iteration) return originalText[index];
+      return letters[Math.floor(Math.random() * letters.length)];
+    })
+    .join("");
+
+  if (iteration >= originalText.length) clearInterval(interval);
+  iteration += 1 / 3;
+}, 50);
+//https://www.webtoolscenter.com/tools/css/text-glitch-effect-generator?utm_source=chatgpt.com
+</script>
