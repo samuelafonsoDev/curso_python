@@ -1,5 +1,6 @@
 #Tipos de variaveis existentes em python
 
+
 variave_tipo_string ="Toda conjunto de caracteres alfa numericos"
 variave_tipo_int = 123456
 variave_tipo_bool = True
