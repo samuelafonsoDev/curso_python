@@ -1,6 +1,6 @@
 
 # Aplicando uma pequena contagem, na maioria das veses tem de ter uma variavel de controle e um IN
-for num in range(200):
+for num in range(201):
     print(num)
 
 

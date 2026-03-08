@@ -16,3 +16,5 @@ print("SAMUEL"[1:3])
 print(len("Samuel")) #len() funcção que mostra o tamanho de uma string
 print("Sara">"samuela") #comparação
 print("a" in "Sara")
+
+

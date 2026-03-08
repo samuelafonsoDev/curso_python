@@ -10,3 +10,8 @@ print(idade)
 
 idade_correta =  int(input("digite a sua idade"))
 print(idade_correta)
+
+
+
+dados = input("What is your name?\n")
+print(dados)

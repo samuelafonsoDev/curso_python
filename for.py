@@ -15,7 +15,7 @@ for x in range(6):
     print(x)
 
 
-nomes = ['Samuel','Joseane','Cássia']
+nomes = ['Samuel','Joseane','Pessoa']
 
 for n in nomes:
     print(n)
@@ -25,6 +25,6 @@ else:
 
 #EXECERCICIOS DA TABUADA
 
-for x in range(13):
-    for y in range(13):
+for x in range(3):
+    for y in range(2):
         print(f'{x}*{y}  = {x*y}')
